@@ -15,7 +15,7 @@ namespace survey_form.Controllers
         [HttpPost("method")]
         public IActionResult Surver(User student)
         {
-            return View("Survey");
+            return View("Survey", student);
         }
     }
 }
