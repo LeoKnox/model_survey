@@ -1,0 +1,19 @@
+@model survey_form.Models.User
+
+<form action="/method" mehtod="post">
+    Your Name:
+    <input type = "text" name="username"><br>
+    Dojo Location:
+    <select>
+        <option value="Snow">Snow Palace</option>
+        <option value="Seattle">Seattle</option>
+    </select><br>
+    Favorite Language
+    <select>
+        <option value="C#">C#</option>
+        <option value="Klingon">Kilingon</option>
+    </select><br>
+    Comment
+    <input type = "text" name="comment"><br>
+    <button type="submit">Submit</button>
+</form>
