@@ -1,8 +1,8 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
-using survey_form.Models;
+using login_reg.Models;
 
-namespace survey_form.Controllers
+namespace login_reg
 {
     public class HelloController : Controller
     {
@@ -12,10 +12,16 @@ namespace survey_form.Controllers
             return View();
         }
 
-        [HttpPost("method")]
-        public IActionResult Surver(User student)
+        [HttpPost("loggedin")]
+        public IActionResult Create(User user)
         {
-            return View("Survey", student);
+            if (ModelState.IsValid) {
+                return View("Registered");
+            }
+            else
+            {
+                return View("Index");
+            }
         }
     }
 }

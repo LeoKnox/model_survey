@@ -1,19 +1,41 @@
-@model survey_form.Models.User
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using login_reg.Models
+@model LogReg
 
-<form action="/method" method="post">
-    Your Name:
-    <input type = "text" name="Name"><br>
-    Dojo Location:
-    <select name="Location">
-        <option value="Snow">Snow Palace</option>
-        <option value="Seattle">Seattle</option>
-    </select><br>
-    Favorite Language
-    <select name="Language">
-        <option value="C#">C#</option>
-        <option value="Klingon">Kilingon</option>
-    </select><br>
-    Comment
-    <input type = "text" name="Comment"><br>
-    <button type="submit">Submit</button>
-</form>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Login Reg</title>
+    </head>
+    <body>
+        <h2>Register</h2>
+        <form asp-action="Create" asp-controller="Hello" method="post">
+            <span asp-validation-for="fname"></span>
+            <label asp-for="fname"></label>
+            <input asp-for="fname"><br>
+            <span asp-validation-for="lname"></span>
+            <label asp-for="lname"></label>
+            <input asp-for="lname"><br>
+            <span asp-validation-for="email"></span>
+            <label asp-for="email"></label>
+            <input asp-for="email"><br>
+            <span asp-validation-for="password"></span>
+            <label asp-for="password"></label>
+            <input asp-for="password"><br>
+            <span asp-validation-for="cpassword"></span>
+            <label asp-for="cpassword"></label>
+            <input asp-for="cpassword"><br>
+
+            <input value = "Submit" type = "submit"><br>
+        </form>
+
+        <h2>Login</h2>
+            <span asp-validation-for="lemail"></span>
+            <label asp-for="lemail"></label>
+            <input asp-for="lemail"><br>
+            <span asp-validation-for="lpassword"></span>
+            <label asp-for="lpassword"></label>
+            <input asp-for="lpassword"><br>
+    </body>
+</html>
