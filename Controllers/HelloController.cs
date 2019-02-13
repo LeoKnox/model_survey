@@ -7,7 +7,7 @@ namespace login_reg
     public class HelloController : Controller
     {
         [HttpGet("")]
-        public ViewResult Index()
+        public IActionResult Index()
         {
             return View();
         }

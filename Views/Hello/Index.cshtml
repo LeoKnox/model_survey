@@ -9,33 +9,9 @@
         <title>Login Reg</title>
     </head>
     <body>
-        <h2>Register</h2>
-        <form asp-action="Create" asp-controller="Hello" method="post">
-            <span asp-validation-for="fname"></span>
-            <label asp-for="fname"></label>
-            <input asp-for="fname"><br>
-            <span asp-validation-for="lname"></span>
-            <label asp-for="lname"></label>
-            <input asp-for="lname"><br>
-            <span asp-validation-for="email"></span>
-            <label asp-for="email"></label>
-            <input asp-for="email"><br>
-            <span asp-validation-for="password"></span>
-            <label asp-for="password"></label>
-            <input asp-for="password"><br>
-            <span asp-validation-for="cpassword"></span>
-            <label asp-for="cpassword"></label>
-            <input asp-for="cpassword"><br>
-
-            <input value = "Submit" type = "submit"><br>
-        </form>
-
-        <h2>Login</h2>
-            <span asp-validation-for="lemail"></span>
-            <label asp-for="lemail"></label>
-            <input asp-for="lemail"><br>
-            <span asp-validation-for="lpassword"></span>
-            <label asp-for="lpassword"></label>
-            <input asp-for="lpassword"><br>
+        <h2>Create</h2>
+        <partial name="User" />
+        <h2>Log</h2>
+        <partial name="Login" />
     </body>
 </html>

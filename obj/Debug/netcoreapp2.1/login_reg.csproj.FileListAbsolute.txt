@@ -22,3 +22,5 @@
 /Users/Aelien/Documents/c#/login_reg/obj/Debug/netcoreapp2.1/login_reg.pdb
 /Users/Aelien/Documents/c#/login_reg/obj/Debug/netcoreapp2.1/login_reg.csproj.CopyComplete
 /Users/Aelien/Documents/c#/login_reg/obj/Debug/netcoreapp2.1/Razor/Views/Hello/Registered.g.cshtml.cs
+/Users/Aelien/Documents/c#/login_reg/obj/Debug/netcoreapp2.1/Razor/Views/Hello/Login.g.cshtml.cs
+/Users/Aelien/Documents/c#/login_reg/obj/Debug/netcoreapp2.1/Razor/Views/Hello/User.g.cshtml.cs

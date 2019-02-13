@@ -48,7 +48,7 @@ using login_reg.Models;
             WriteLiteral("\n<!DOCTYPE html>\n<html>\n    ");
             EndContext();
             BeginContext(117, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "923da5761a3342a19e6196c564da531a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3f4c707593874f4f90a62328cc5f4dac", async() => {
                 BeginContext(123, 69, true);
                 WriteLiteral("\n        <meta charset=\'utf-8\'>\n        <title>Login Reg</title>\n    ");
                 EndContext();
@@ -68,7 +68,7 @@ using login_reg.Models;
             WriteLiteral("\n    ");
             EndContext();
             BeginContext(204, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c9bca109d5d041ab9d8b24574af35678", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "74f4e59453604a09952f3814b3aa99a8", async() => {
                 BeginContext(210, 31, true);
                 WriteLiteral("\n        <h2>Success</h2>\n\n    ");
                 EndContext();
